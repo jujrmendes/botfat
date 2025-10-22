@@ -1,24 +1,21 @@
 :root {
-  --bg: #f6f8fa;           
-  --card: #ffffff;          
-  --accent: #17547cff;        
-  --accent-dark: #45679cff;   
-  --muted: #6b7280;        
-  --border: #e6e9ef;        
-  --text: #111827;          
+  --bg: #f6f8fa;
+  --card: #ffffff;
+  --accent: #17547c;
+  --accent-dark: #45679c;
+  --muted: #6b7280;
+  --border: #e6e9ef;
+  --text: #111827;
   --shadow: rgba(0, 0, 0, 0.05);
-  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue';
-}
-
-* {
-  box-sizing: border-box;
 }
 
 body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue';
 }
+
 
 .dropdown {
   position: relative;
